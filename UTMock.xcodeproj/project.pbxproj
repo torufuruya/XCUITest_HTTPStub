@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2A02B61175087C018C703B9 /* libPods-UTMockUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD0A75D53A12DA4683DEE64 /* libPods-UTMockUITests.a */; };
+		CF2ADB444DD519562B0A161B /* libPods-UTMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B38FB3FB3E3F1A0BB7A0CF08 /* libPods-UTMock.a */; };
+		FDD953F11F176A4E0016277E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD953F01F176A4E0016277E /* main.m */; };
+		FDD953F41F176A4E0016277E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD953F31F176A4E0016277E /* AppDelegate.m */; };
+		FDD953F71F176A4E0016277E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD953F61F176A4E0016277E /* ViewController.m */; };
+		FDD953FA1F176A4E0016277E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD953F81F176A4E0016277E /* Main.storyboard */; };
+		FDD953FC1F176A4E0016277E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD953FB1F176A4E0016277E /* Assets.xcassets */; };
+		FDD953FF1F176A4E0016277E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDD953FD1F176A4E0016277E /* LaunchScreen.storyboard */; };
+		FDD9540A1F176A4E0016277E /* UTMockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD954091F176A4E0016277E /* UTMockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD954061F176A4E0016277E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD953E41F176A4E0016277E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD953EB1F176A4E0016277E;
+			remoteInfo = UTMock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		678DEAC0CCE8C840B5077605 /* Pods-UTMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTMock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UTMock/Pods-UTMock.debug.xcconfig"; sourceTree = "<group>"; };
+		7DD0A75D53A12DA4683DEE64 /* libPods-UTMockUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UTMockUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		933BFFF4AF034361B676F532 /* Pods-UTMockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTMockUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UTMockUITests/Pods-UTMockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B38FB3FB3E3F1A0BB7A0CF08 /* libPods-UTMock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UTMock.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04759CBFBB58423C3714018 /* Pods-UTMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTMock.release.xcconfig"; path = "Pods/Target Support Files/Pods-UTMock/Pods-UTMock.release.xcconfig"; sourceTree = "<group>"; };
+		CFB8EA912E6930E5B6F2B274 /* Pods-UTMockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UTMockUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UTMockUITests/Pods-UTMockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD953EC1F176A4E0016277E /* UTMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD953F01F176A4E0016277E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDD953F21F176A4E0016277E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDD953F31F176A4E0016277E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDD953F51F176A4E0016277E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDD953F61F176A4E0016277E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDD953F91F176A4E0016277E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDD953FB1F176A4E0016277E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD953FE1F176A4E0016277E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD954001F176A4E0016277E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDD954051F176A4E0016277E /* UTMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UTMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD954091F176A4E0016277E /* UTMockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UTMockUITests.m; sourceTree = "<group>"; };
+		FDD9540B1F176A4E0016277E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD953E91F176A4E0016277E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2ADB444DD519562B0A161B /* libPods-UTMock.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD954021F176A4E0016277E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2A02B61175087C018C703B9 /* libPods-UTMockUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68AEFED9D505A7987D90A3DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B38FB3FB3E3F1A0BB7A0CF08 /* libPods-UTMock.a */,
+				7DD0A75D53A12DA4683DEE64 /* libPods-UTMockUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B55E278233A8686AE216429B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				678DEAC0CCE8C840B5077605 /* Pods-UTMock.debug.xcconfig */,
+				C04759CBFBB58423C3714018 /* Pods-UTMock.release.xcconfig */,
+				CFB8EA912E6930E5B6F2B274 /* Pods-UTMockUITests.debug.xcconfig */,
+				933BFFF4AF034361B676F532 /* Pods-UTMockUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDD953E31F176A4E0016277E = {
+			isa = PBXGroup;
+			children = (
+				FDD953EE1F176A4E0016277E /* UTMock */,
+				FDD954081F176A4E0016277E /* UTMockUITests */,
+				FDD953ED1F176A4E0016277E /* Products */,
+				B55E278233A8686AE216429B /* Pods */,
+				68AEFED9D505A7987D90A3DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD953ED1F176A4E0016277E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD953EC1F176A4E0016277E /* UTMock.app */,
+				FDD954051F176A4E0016277E /* UTMockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD953EE1F176A4E0016277E /* UTMock */ = {
+			isa = PBXGroup;
+			children = (
+				FDD953F21F176A4E0016277E /* AppDelegate.h */,
+				FDD953F31F176A4E0016277E /* AppDelegate.m */,
+				FDD953F51F176A4E0016277E /* ViewController.h */,
+				FDD953F61F176A4E0016277E /* ViewController.m */,
+				FDD953F81F176A4E0016277E /* Main.storyboard */,
+				FDD953FB1F176A4E0016277E /* Assets.xcassets */,
+				FDD953FD1F176A4E0016277E /* LaunchScreen.storyboard */,
+				FDD954001F176A4E0016277E /* Info.plist */,
+				FDD953EF1F176A4E0016277E /* Supporting Files */,
+			);
+			path = UTMock;
+			sourceTree = "<group>";
+		};
+		FDD953EF1F176A4E0016277E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDD953F01F176A4E0016277E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDD954081F176A4E0016277E /* UTMockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDD954091F176A4E0016277E /* UTMockUITests.m */,
+				FDD9540B1F176A4E0016277E /* Info.plist */,
+			);
+			path = UTMockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD953EB1F176A4E0016277E /* UTMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD9540E1F176A4E0016277E /* Build configuration list for PBXNativeTarget "UTMock" */;
+			buildPhases = (
+				96E525F98FA0E35DE597D8A2 /* [CP] Check Pods Manifest.lock */,
+				FDD953E81F176A4E0016277E /* Sources */,
+				FDD953E91F176A4E0016277E /* Frameworks */,
+				FDD953EA1F176A4E0016277E /* Resources */,
+				9CAFBEFC0B1412B4145653A7 /* [CP] Embed Pods Frameworks */,
+				2967364B6E3AD01141A071D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTMock;
+			productName = UTMock;
+			productReference = FDD953EC1F176A4E0016277E /* UTMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD954041F176A4E0016277E /* UTMockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD954111F176A4E0016277E /* Build configuration list for PBXNativeTarget "UTMockUITests" */;
+			buildPhases = (
+				E84AFDF763DD441A79B9B95D /* [CP] Check Pods Manifest.lock */,
+				FDD954011F176A4E0016277E /* Sources */,
+				FDD954021F176A4E0016277E /* Frameworks */,
+				FDD954031F176A4E0016277E /* Resources */,
+				1DD1A29489100AC09240BFC1 /* [CP] Embed Pods Frameworks */,
+				9F1A2E09E74DEB1454294CA2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD954071F176A4E0016277E /* PBXTargetDependency */,
+			);
+			name = UTMockUITests;
+			productName = UTMockUITests;
+			productReference = FDD954051F176A4E0016277E /* UTMockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD953E41F176A4E0016277E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.example;
+				TargetAttributes = {
+					FDD953EB1F176A4E0016277E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					FDD954041F176A4E0016277E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FDD953EB1F176A4E0016277E;
+					};
+				};
+			};
+			buildConfigurationList = FDD953E71F176A4E0016277E /* Build configuration list for PBXProject "UTMock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD953E31F176A4E0016277E;
+			productRefGroup = FDD953ED1F176A4E0016277E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD953EB1F176A4E0016277E /* UTMock */,
+				FDD954041F176A4E0016277E /* UTMockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD953EA1F176A4E0016277E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD953FF1F176A4E0016277E /* LaunchScreen.storyboard in Resources */,
+				FDD953FC1F176A4E0016277E /* Assets.xcassets in Resources */,
+				FDD953FA1F176A4E0016277E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD954031F176A4E0016277E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DD1A29489100AC09240BFC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTMockUITests/Pods-UTMockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2967364B6E3AD01141A071D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTMock/Pods-UTMock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E525F98FA0E35DE597D8A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9CAFBEFC0B1412B4145653A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTMock/Pods-UTMock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1A2E09E74DEB1454294CA2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UTMockUITests/Pods-UTMockUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E84AFDF763DD441A79B9B95D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD953E81F176A4E0016277E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD953F71F176A4E0016277E /* ViewController.m in Sources */,
+				FDD953F41F176A4E0016277E /* AppDelegate.m in Sources */,
+				FDD953F11F176A4E0016277E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD954011F176A4E0016277E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD9540A1F176A4E0016277E /* UTMockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD954071F176A4E0016277E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD953EB1F176A4E0016277E /* UTMock */;
+			targetProxy = FDD954061F176A4E0016277E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDD953F81F176A4E0016277E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD953F91F176A4E0016277E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDD953FD1F176A4E0016277E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDD953FE1F176A4E0016277E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDD9540C1F176A4E0016277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDD9540D1F176A4E0016277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDD9540F1F176A4E0016277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678DEAC0CCE8C840B5077605 /* Pods-UTMock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UTMock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UTMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDD954101F176A4E0016277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04759CBFBB58423C3714018 /* Pods-UTMock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UTMock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UTMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FDD954121F176A4E0016277E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB8EA912E6930E5B6F2B274 /* Pods-UTMockUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = UTMockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UTMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UTMock;
+			};
+			name = Debug;
+		};
+		FDD954131F176A4E0016277E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933BFFF4AF034361B676F532 /* Pods-UTMockUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = UTMockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UTMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UTMock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD953E71F176A4E0016277E /* Build configuration list for PBXProject "UTMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD9540C1F176A4E0016277E /* Debug */,
+				FDD9540D1F176A4E0016277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD9540E1F176A4E0016277E /* Build configuration list for PBXNativeTarget "UTMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD9540F1F176A4E0016277E /* Debug */,
+				FDD954101F176A4E0016277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDD954111F176A4E0016277E /* Build configuration list for PBXNativeTarget "UTMockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD954121F176A4E0016277E /* Debug */,
+				FDD954131F176A4E0016277E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD953E41F176A4E0016277E /* Project object */;
+}

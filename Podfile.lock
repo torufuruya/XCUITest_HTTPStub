@@ -1,0 +1,22 @@
+PODS:
+  - FXKeychain (1.5.3)
+  - GCDWebServer (3.4):
+    - GCDWebServer/Core (= 3.4)
+  - GCDWebServer/Core (3.4)
+  - SBTUITestTunnel/Client (2.1.2)
+  - SBTUITestTunnel/Server (2.1.2):
+    - FXKeychain
+    - GCDWebServer (~> 3.0)
+
+DEPENDENCIES:
+  - SBTUITestTunnel/Client
+  - SBTUITestTunnel/Server
+
+SPEC CHECKSUMS:
+  FXKeychain: 2fe54573946ffef634f4e2a2851e6c8f4ea15e76
+  GCDWebServer: 20d53c3181b3c78d865e93e326faf506306f5338
+  SBTUITestTunnel: 5f4453cdcaeab4a7c8a1294e0809f63bf9aef7eb
+
+PODFILE CHECKSUM: 60ba597e5a76cf691c290087282bc8bfc83d2c67
+
+COCOAPODS: 1.2.1
